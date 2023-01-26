@@ -1,0 +1,59 @@
+let x = 10
+if ( x > 5); {
+    console.log('X is greater than 5');
+
+    if (x < 5);
+console.log('X is not greater than 5')
+}
+
+let str = 'Juanito runs';
+console.log(str.length);
+if ( str > 5); {
+    console.log("The name is longer than 5 characters");
+
+    if (str < 5);
+console.log("The name is 5 characters or less");
+}
+
+var age = 30
+ if (age >= 18);{
+    console.log("You are an adult");
+    
+    if (age < 18);
+    console.log("You are not an adult");
+}
+
+function hello(John){ 
+    if(John){ 
+        return "Hello,  + John "
+    }else{ 
+        return "Hello there!"; 
+    } 
+} 
+
+const scores = [33, 88, 70, 65, 22, 95];
+let i = 0
+while (i < scores.length) {
+    console.log(scores[i]);
+    i++;
+}
+
+int counter = 0; 
+for(int i=0; i<10; i++){  
+    counter = counter + 1
+    System.out.println(counter);  
+}
+
+let  arr[] = { 45, 33, 72, 28};
+ let sum()
+    {
+        let sum = 0;
+        let i;
+        for (i = 0; i < arr.length; i++)
+            sum += arr[i];
+            
+             const array = [10, 5, 20, 30, 35, 45, 43]
+        function biggestNumberInArray(arr) {
+            const max = Math.max(...arr);
+            return max;
+          }
